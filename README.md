@@ -3,29 +3,29 @@ This is e-commerce website built with Django.This website displays products.User
 
 
 # installation
-## 1.clone Repository & Install Packages
+### 1.clone Repository & Install Packages
 
 git clone https://github.com/rashi311/ecom.git
 
-## 2.Setup Virtualenv
+### 2.Setup Virtualenv
 
 virtualenv myenv
 source myenv/bin/activate
 
-## 3.install dependencies
+### 3.install dependencies
 
 pip install -r requirements.txt
 
-## 4.Databse migration
+### 4.Databse migration
 
 python manage.py makemigrations
 python manage.py migrate
 
-## 5.create a superuser
+### 5.create a superuser
 python manage.py createsuperuser
 
-## 6.Start the developement server
+### 6.Start the developement server
 python manage.py runserver
 
-## 7.Open your web browser and navigate to:
+### 7.Open your web browser and navigate to:
 http://127.0.0.1:8000/
